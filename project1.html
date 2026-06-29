@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Checker</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📝 Grammar Checker</h1>
+
+        <textarea id="story" rows="10">
+Last weekend, I took literally the most beautifull bike ride of my life. The route is called "The 9W to Nyack" and it stretched all the way from Riverside Park in Manhattan to South Nyack, New Jersey. It's really an adventure from beginning to end! It is a 48 mile loop and it literally took me an entire day. I stopped at Riverbank State Park to take some pictures. It was a very fun ride.
+        </textarea>
+        <!-- we can also take in user input but it will require an api to check the grammer in sha ALlah we will create it also 
+          -->
+
+        <button onclick="checkGrammar()">
+            Check Story
+        </button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="project1.js"></script>
+
+</body>
+</html>
